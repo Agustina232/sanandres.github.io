@@ -1,0 +1,374 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body {
+    margin: 0 auto;
+    font-family: 'Stilu', sans-serif;
+}
+
+h1 {
+	font-family: 'Stilu Semibold', sans-serif;
+	font-size: 46px;
+	}	
+	
+h2 {
+    font-family: 'Stilu Semibold', sans-serif;
+	font-size: 30px;
+}
+
+p {
+    font-family: 'Stilu', sans-serif;
+	font-size: 21px;
+}
+
+
+	
+
+
+header {
+	background: #FFFFFF;
+	height: 150px;
+	position: relative;
+	margin: 0;
+	line-height: 0px;
+	display: flex;
+	padding: 25px;
+	}
+
+a {
+	text-decoration: none;
+}
+header a > img {
+	float: left;
+	}
+	
+
+	
+header nav ul {
+		font-family: 'Stilu Semibold', sans-serif;
+		width: 85%;
+		height: 20px;
+		float: right;
+		display: flex;
+		padding-top: 17px;
+		margin-left: 150px;
+		margin-top: 115px;
+	}
+
+	
+nav ul a > li {
+	padding-left: 25px;
+	font-size: 21px;
+	float: right;
+	}
+	
+nav ul > a {
+	color:#000000;
+	list-style: none;
+	}
+
+nav ul a > li:hover {
+	color: #098837;
+	}	
+	
+	
+	
+	
+	
+	
+	
+nav ul > li, a {
+	padding-left: 25px;
+	font-size: 21px;
+	display:inline;
+	float: right;
+	}
+	
+nav ul > li, a {
+	list-style: none;
+	color: #098837;
+	margin-bottom: 20px;
+	}
+	
+
+
+
+h1, h2 {
+	color:#000000;
+}
+nav ul a {
+	font-size: 21px;
+	}
+	
+
+	
+
+.inicionoticiasynovedades {
+		height: 90vh;
+		position: absolute;
+		background: url("imagenes/formas/fondonoticiasynovedades.png") center;
+		background-size: cover;
+	}
+	
+	.temporadaotinv {
+		background: #44B86E;
+		height: 100vh;
+		padding-top: 120px;
+		position: relative;
+		margin: 0;
+	}
+	
+	.temporadaotinv h1 {
+		text-align: center;
+		color: #000000;
+		padding-bottom: 50px;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.temporadaotinv p {
+		text-align: center;
+		margin-top: 10px;
+	}
+	
+	.temporadaotinv .cols {
+		width: 75%;
+		height: 80%;
+		text-align: left;
+		margin-left: 140px;
+		padding-left: 100px;
+	}
+
+	.meriendas {
+		width: 35%;
+		height: 90%;
+		text-align: left;
+		margin-left: 55px;
+		margin-top: 20px;
+		float: left;
+	}
+	
+	.meriendas h2 {
+		text-align: center;
+		color: #FFFFFF;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.meriendas div img {
+		position: absolute;
+		float: left;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.meriendas div img:hover {
+		width: 26%;
+		background: url( "imagenes/meriendaspromosombreado.png") center;
+		background-size: cover;
+	}
+	
+	.kilodehelado {
+		width: 35%;
+		height: 90%;
+		text-align: left;
+		margin-left: 55px;
+		margin-top: 20px;
+		float: left;
+	}
+	
+	.kilodehelado h2 {
+		text-align: center;
+		color: #FFFFFF;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.kilodehelado div img {
+		position: absolute;
+		float: left;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	
+	.kilodehelado div img:hover {
+		width: 26%;
+		background: url("imagenes/kilodeheladopromosombreado.png") center;
+		background-size: cover;
+	}
+	
+	
+	
+	
+	.staff {
+		height: 120vh;
+		padding-left: 120px;
+		margin: 0 auto;
+		position: relative;
+		background: url("imagenes/formas/fondoblancoyformasverdes.png") center;
+		background-size: cover;
+	}
+	
+	.staff h1 {
+		text-align: left;
+		padding-top: 280px;
+		margin-bottom: 0px;
+		color: #F7C93E;
+	}
+	.staff p {
+		text-align: left;
+		margin-top: 10px;
+		margin-right: 500px;
+	}
+	
+
+	
+	.paletasheladas {
+		position: relative;
+		background: #44B86E;
+		height: 190vh;
+		margin:0 auto;
+	}
+	
+	.paletasheladas h1 {
+		text-align: center;
+		color: #000000;
+		padding-top: 40px;
+		padding-bottom: 50px;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.paletasheladas > div {
+		position: relative;
+		margin-right: 20px;
+	}
+	
+	.mandarina div img {
+		position: relative;
+		margin-top: 10px;
+		padding-right: 15px;
+		margin-left: 250px;
+		float: left;
+		display: inline;
+	}
+	
+	.mandarina div img:hover {
+		width: 30%;
+		background: url("imagenes/Productos/paletamandarinasombreado.png") center;
+		background-size: cover;
+	}
+
+	.durazno div img {
+		position: relative;
+		margin-top: 10px;
+		padding-right: 15px;
+		float: left;
+		display: inline;
+	}
+	
+	.durazno div img:hover {
+		width: 30%;
+		background: url("imagenes/Productos/paletaduraznosombreado.png") center;
+		background-size: cover;
+	}
+	
+	.frutilla div img {
+		position: relative;
+		margin-top: 10px;
+		padding-right: 15px;
+		margin-left: 250px;
+		float: left;
+		display: inline;
+	}
+	
+	.frutilla div img:hover {
+		width: 30%;
+		background: url( "imagenes/Productos/paletafrutillasombreado.png") center;
+		background-size: cover;
+	}
+	
+	.arandanos div img {
+		position: relative;
+		margin-top: 10px;
+		padding-right: 15px;
+		float: left;
+		display: inline;
+	}
+	
+	.arandanos div img:hover {
+		width: 30%;
+		background: url( "imagenes/Productos/paletaarandanossombreado.png") center;
+		background-size: cover;
+	}
+
+	
+	
+	
+
+footer {
+	font-family: 'Stilu', sans-serif;
+	background: #F7C93E;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 2600px;
+	position: relative;
+	text-align: left;
+	font-size: 17px;
+	padding: 20px;
+	}
+
+footer div {
+	width: 21.7%;
+	height: 100%;
+	padding: 8px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	border-right: 5px solid #098837;
+	right: 25px;
+	align-content: center;
+	}
+	
+
+footer .derechosreservados div {
+	height: 113px;
+	} 
+	
+footer .encontranosen div {
+	height: 113px;
+	} 
+	
+
+footer p {
+	display: flex;
+	font-size: 17px;
+	margin: 0 auto;
+	margin-left: 38px;
+	padding-bottom: 2px;
+	text-align: left;
+	float: left;
+	position: relative;
+	}
+	
+footer .derechosreservados p {
+	margin-left: 0px;
+	}
+
+footer img {
+	display: flex;
+	margin: 0 auto;
+	position: absolute;
+	float: left;
+	padding: 4px;
+	}
+
+footer .encontranosen img {
+	margin-top: -5px;
+	}
+	
+	

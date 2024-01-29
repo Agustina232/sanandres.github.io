@@ -1,0 +1,648 @@
+@charset "utf-8";
+/* CSS Document */
+
+	
+html body {
+    margin: 0 auto;
+    font-family: 'Stilu', sans-serif;
+}
+
+h1 {
+	font-family: 'Stilu Semibold', sans-serif;
+	font-size: 46px;
+	}	
+	
+h2 {
+    font-family: 'Stilu Semibold', sans-serif;
+	font-size: 30px;
+}
+
+p {
+    font-family: 'Stilu', sans-serif;
+	font-size: 21px;
+}
+
+
+	
+
+
+header {
+	background: #FFFFFF;
+	height: 150px;
+	position: relative;
+	margin: 0;
+	line-height: 0px;
+	display: flex;
+	padding: 25px;
+	}
+
+a {
+	text-decoration: none;
+}
+header a > img {
+	float: left;
+	}
+	
+
+	
+header nav ul {
+		font-family: 'Stilu Semibold', sans-serif;
+		width: 85%;
+		height: 20px;
+		float: right;
+		display: flex;
+		padding-top: 17px;
+		margin-left: 150px;
+		margin-top: 115px;
+	}
+
+	
+nav ul a > li {
+	padding-left: 25px;
+	font-size: 21px;
+	float: right;
+	}
+	
+nav ul > a {
+	color:#000000;
+	list-style: none;
+	}
+
+nav ul a > li:hover {
+	color: #098837;
+	}	
+	
+	
+	
+	
+	
+	
+	
+nav ul > li, a {
+	padding-left: 25px;
+	font-size: 21px;
+	display:inline;
+	float: right;
+	}
+	
+nav ul > li, a {
+	list-style: none;
+	color: #098837;
+	margin-bottom: 20px;
+	}
+	
+
+
+
+h1, h2 {
+	color:#000000;
+}
+nav ul a {
+	font-size: 21px;
+	}
+	
+	
+
+footer {
+	font-family: 'Stilu', sans-serif;
+	background: #F7C93E;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	font-size: 17px;
+	padding: 20px;
+	}
+
+footer div {
+	width: 21.7%;
+	height: 100%;
+	padding: 8px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	border-right: 5px solid #098837;
+	right: 25px;
+	align-content: center;
+	}
+	
+
+footer .derechosreservados div {
+	height: 113px;
+	} 
+	
+footer .encontranosen div {
+	height: 113px;
+	} 
+	
+
+footer p {
+	display: flex;
+	font-size: 17px;
+	margin: 0 auto;
+	margin-left: 38px;
+	padding-bottom: 2px;
+	text-align: left;
+	float: left;
+	position: relative;
+	}
+	
+footer .derechosreservados p {
+	margin-left: 0px;
+	}
+
+footer img {
+	display: flex;
+	margin: 0 auto;
+	position: absolute;
+	float: left;
+	padding: 4px;
+	}
+
+footer .encontranosen img {
+	margin-top: -5px;
+	}
+	
+	
+	
+	.inicionuestrosproductos {
+		height: 100vh;
+		position: relative;
+		background: url("imagenes/formas/fondonuestrosproductos.png") center;
+		background-size: cover;
+	}
+	
+	.queofrecemos {
+		background: #FFFFFF;
+		height: 30vh;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.queofrecemos h1 {
+		text-align: center;
+		padding-top: 20px;
+		margin-bottom: 0px;
+		margin-left: 410px;
+		margin-right: 410px;
+		color: #098837;
+	}
+	.queofrecemos p {
+		text-align: center;
+		margin-top: 10px;
+		margin-left: 320px;
+		margin-right: 320px;
+	}
+	
+	
+	
+	
+	
+	.helados {
+		height: 185vh;
+		background: url("imagenes/formas/fondoverdeyformasblancas.png") center;
+		background-size: cover;
+		position: relative;
+		padding-top: 90px;
+		margin: 0 auto;
+	}
+
+
+	.helados h1 {
+		text-align: left;
+		margin-top: 190px;
+		padding-left: 130px;
+	}
+	.helados h2 {
+		text-align: left;
+		padding-left: 19px;
+		color: #FFFFFF;
+	}
+	.helados ul {
+		text-align: left;
+		color:#000000;
+	}
+
+.helados .cols {
+		width: 68%;
+		height: 100%;
+		text-align: left;
+		margin-bottom: 20px;
+		margin-left: 180px;
+	}
+	
+
+	
+.chocolate {
+		width: 30%;
+		height: 32%;
+		text-align: left;
+		float: left;
+		margin-right: 40px;
+	}
+
+.agua {
+		width: 30%;
+		height: 32%;
+		text-align: left;
+		margin: 0 auto;
+		float: left;
+		margin-right: 40px;
+	}
+
+.vainilla {
+		width: 30%;
+		height: 16%;
+		text-align: left;
+		margin: 0 auto;
+		float: left;
+		margin-top: 30px;
+	}
+
+.vainilla h2 {
+		margin-top: 35px;
+	}
+	
+	
+.dulcedeleche {
+		width: 30%;
+	height: 32%;
+		text-align: left;
+		float: left;
+		display: inline;
+	}
+
+.crema {
+		width: 99%;
+	height: 25%;
+	margin-top: 25px;
+		text-align: left;
+		float: left;
+	}
+	
+	.crema h2, li p {
+		margin-bottom: -10px;
+	}
+	
+	
+	.crema ul {
+		text-align: left;
+		float: left;
+		padding-right: 77px;
+	}
+	
+	
+	.desayunosymeriendas {;
+		background: #FFFFFF;
+		height: 100vh;
+		position: relative;
+		margin: 0 auto;
+	}
+	.desayunosymeriendas h1 {
+		text-align: center;
+		margin-bottom: 0px;
+		color: #F7C93E;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	
+	
+	
+.desayunosymeriendas .cols {
+		width: 68%;
+		height: 90%;
+		text-align: left;
+		margin-left: 140px;
+	}
+
+	
+.desayunobasico {
+		width: 35%;
+		height: 75%;
+		text-align: left;
+		margin-left: 150px;
+		margin-top: 60px;
+		float: left;
+	}
+	
+.desayunobasico h2 {
+		text-align: left;
+		margin-left: 140px;
+		margin-top: 10px;
+		padding-top: 20px;
+		color:#098837;
+	}
+.desayunobasico p {
+		text-align: left;
+		margin-top: -10px;
+		margin-left: 140px;
+	margin-bottom: 60px;
+		color:#000000;
+	}
+
+.desayunobasico div img {
+		position: absolute;
+		float: left;
+		margin-top: 10px;
+		padding-top: 20px;
+		display: flex;
+		padding-right: 25px;
+	}
+
+.capuchinoydosmedialunas {
+		width: 33%;
+		height: 75%;
+		text-align: left;
+		margin-left: 140px;
+		margin-top: 60px;
+		float: left;
+	}
+	
+.capuchinoydosmedialunas h2 {
+		text-align: left;
+		margin-left: 140px;
+		margin-top: 10px;
+		padding-top: 20px;
+		color:#098837;
+	}
+.capuchinoydosmedialunas	p {
+		text-align: left;
+		margin-top: -10px;
+		margin-left: 140px;
+	margin-bottom: 60px;
+		color:#000000;
+	}
+
+.capuchinoydosmedialunas	div img {
+		position: absolute;
+		float: left;
+		margin-top: 10px;
+		padding-top: 20px;
+		display: flex;
+		padding-right: 25px;
+	}
+
+	
+	
+	
+	
+	
+.tartasypostres {
+		height: 160vh;
+		background: url("imagenes/formas/fondoverdeyformablancamascorta.png") center;
+		background-size: cover;
+		position: relative;
+		margin: 0 auto;
+	
+	}
+
+
+	.tartasypostres	h1 {
+		text-align: center;
+		color: #000000;
+		padding-bottom: 20px;
+		padding-top: 440px;
+		position: relative;
+	}
+	
+.tartasypostres .cols {
+		width: 80%;
+		height: 70%;
+		text-align: left;
+		margin-top: 10px;
+		margin-left: 140px;
+		float: left;
+		padding-left: 5px;
+	}
+
+	
+.pecadora {
+		width: 21%;
+		height: 20%;
+		text-align: center;
+		margin-top: 60px;
+	padding-top: 7px;
+		margin-right: 35px;
+		float: left;
+		display: inline;
+	}
+	
+	.pecadora h2 {
+		margin-top: 10px;
+		margin-left: 32px;
+		padding-top: 20px;
+		color:#FFFFFF;
+	}
+	
+	.pecadora div a img {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.pecadora div a img:hover {
+		width: 100%;
+		background: url("imagenes/Productos/pecadoraasombreadocuadrado.png") center;
+		background-size: cover;
+	}
+	
+.marmolada {
+		width: 21%;
+		height: 19%;
+		text-align: center;
+		margin-top: 60px;
+		padding-top: 15px;
+		margin-right: 35px;
+		float: left;
+		display: inline;
+	}
+	
+	.marmolada h2 {
+		margin-top: 10px;
+		margin-left: 32px;
+		padding-top: 20px;
+		color:#FFFFFF;
+	}
+	
+	.marmolada div a img {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.marmolada div a img:hover {
+		width: 100%;
+		background: url("imagenes/Productos/marmoladasombreadocuadrado.png") center;
+		background-size: cover;
+	}
+
+.sanandres {
+		width: 21%;
+		height: 20%;
+		text-align: center;
+		margin-top: 60px;
+		padding-top: 7px;
+		margin-right: 35px;
+		float: left;
+		display: inline;
+	}
+	
+	.sanandres h2 {
+		margin-top: 10px;
+		margin-left: 32px;
+		padding-top: 20px;
+		color:#FFFFFF;
+	}
+	
+	.sanandres div a img {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.sanandres div a img:hover {
+		width: 100%;
+		background: url( "imagenes/Productos/sanandressombreadocuadrado.png") center;
+		background-size: cover;
+	}
+	
+.tiramisu {
+		width: 21%;
+		height: 20%;
+		text-align: center;
+		margin-top: 60px;
+		padding-top: 7px;
+		margin-right: 35px;
+		float: left;
+		display: inline;
+	}
+	
+	.tiramisu h2 {
+		margin-top: 10px;
+		margin-left: 32px;
+		padding-top: 20px;
+		color:#FFFFFF;
+	}
+	
+	.tiramisu div a img {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.tiramisu div a img:hover {
+		width: 100%;
+		background: url("imagenes/Productos/tiramisusombreado.png") center;
+		background-size: cover;
+	}
+	
+.rogel {
+		width: 21%;
+		height: 20%;
+		text-align: center;
+		margin-top: 190px;
+		margin-right: 35px;
+		padding-top: 3px;
+		float: left;
+		display: inline;
+	}
+	
+	.rogel  h2 {
+		margin-top: 10px;
+		margin-left: 32px;
+		padding-top: 20px;
+		color:#FFFFFF;
+	}
+	
+	.rogel  div a img {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.rogel div a img:hover {
+		width: 100%;
+		background: url("imagenes/Productos/rogelsombreadocuadrado.png") center;
+		background-size: cover;
+	}
+	
+.selvanegra {
+		width: 21%;
+		height: 20%;
+		text-align: center;
+		margin-top: 190px;
+		margin-right: 35px;
+		float: left;
+		display: inline;
+	}
+	
+	.selvanegra h2 {
+		margin-top: 10px;
+		margin-left: 32px;
+		padding-top: 20px;
+		color:#FFFFFF;
+	}
+	
+	.selvanegra div a img {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.selvanegra div a img:hover {
+		width: 100%;
+		background: url( "imagenes/Productos/selvanegrasombreadocuadrado.png") center;
+		background-size: cover;
+	}
+	
+.dracula {
+		width: 21%;
+		height: 20%;
+		text-align: center;
+		margin-top: 190px;
+		margin-right: 35px;
+		padding-top: 9px;
+		float: left;
+		display: inline;
+	}
+	
+	.dracula h2 {
+		margin-top: 10px;
+		margin-left: 32px;
+		padding-top: 20px;
+		color:#FFFFFF;
+	}
+	
+	.dracula div a img {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.dracula div a img:hover {
+		width: 100%;
+		background: url( "imagenes/Productos/draculasombreadocuadrado.png") center;
+		background-size: cover;
+	}
+	
+.tartadefrutilla {
+		width: 21%;
+		height: 24%;
+		text-align: center;
+		margin-top: 190px;
+		padding-top: 15px;
+		margin-right: 35px;
+		float: left;
+		display: inline;
+	}
+	
+	.tartadefrutilla h2 {
+		margin-top: 10px;
+		margin-left: 32px;
+		padding-top: 20px;
+		color:#FFFFFF;
+	}
+	
+	.tartadefrutilla div a img {
+		position: relative;
+		margin-top: 10px;
+	}
+	
+	.tartadefrutilla div a img:hover {
+		width: 100%;
+		background: url("imagenes/Productos/tartadefrutillasombreadocuadrado.png") center;
+		background-size: cover;
+	}

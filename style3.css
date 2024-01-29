@@ -1,0 +1,260 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body {
+    margin: 0 auto;
+    font-family: 'Stilu', sans-serif;
+}
+
+h1 {
+	font-family: 'Stilu Semibold', sans-serif;
+	font-size: 46px;
+	}	
+	
+h2 {
+    font-family: 'Stilu Semibold', sans-serif;
+	font-size: 30px;
+}
+
+p {
+    font-family: 'Stilu', sans-serif;
+	font-size: 21px;
+}
+
+
+	
+
+
+header {
+	background: #FFFFFF;
+	height: 150px;
+	position: relative;
+	margin: 0;
+	line-height: 0px;
+	display: flex;
+	padding: 25px;
+	}
+
+a {
+	text-decoration: none;
+}
+header a > img {
+	float: left;
+	}
+	
+
+	
+header nav ul {
+		font-family: 'Stilu Semibold', sans-serif;
+		width: 85%;
+		height: 20px;
+		float: right;
+		display: flex;
+		padding-top: 17px;
+		margin-left: 150px;
+		margin-top: 115px;
+	}
+
+	
+nav ul a > li {
+	padding-left: 25px;
+	font-size: 21px;
+	float: right;
+	}
+	
+nav ul > a {
+	color:#000000;
+	list-style: none;
+	}
+
+nav ul a > li:hover {
+	color: #098837;
+	}	
+	
+	
+	
+	
+	
+	
+	
+nav ul > li, a {
+	padding-left: 25px;
+	font-size: 21px;
+	display:inline;
+	float: right;
+	}
+	
+nav ul > li, a {
+	list-style: none;
+	color: #098837;
+	margin-bottom: 20px;
+	}
+	
+
+
+
+h1, h2 {
+	color:#000000;
+}
+nav ul a {
+	font-size: 21px;
+	}
+	
+	
+	.inicioeventosexclusivos {
+		height: 100vh;
+		position: relative;
+		background: url("imagenes/formas/fondoeventosexclusivos.png") center;
+		background-size: cover;
+	}
+	
+	.evento1 {
+		background: #F7C93E;
+		height: 50vh;
+		padding-top: 40px;
+		padding-left: 140px;
+		position: relative;
+		margin: 0;
+	}
+	.evento1 h1 {
+		text-align: left;
+		margin-bottom: 0px;
+		margin-left: 700px;
+		margin-right: 170px;
+	}
+	.evento1 p {
+		text-align: left;
+		margin-left: 700px;
+		margin-right: 170px;
+	}
+	
+	.evento1 div img {
+		position: absolute;
+		float: left;
+		padding-left: 35px;
+		display: flex;
+	}
+		
+
+	
+	
+	.evento2 {
+		background: url("imagenes/formas/fondoblancoyformasamarillas.png") center;
+		background-size: cover;
+		height: 120vh;
+		padding-left: 140px;
+		padding-top: 100px;
+		position: relative;
+		margin: 0;
+	}
+	.evento2 h1 {
+		text-align: left;
+		margin-bottom: 0px;
+		padding-top: 158px;
+		color:#098837;
+	}
+	.evento2 p {
+		text-align: left;
+		margin-top: 10px;
+		
+	}
+	.evento2 div img {
+		position: absolute;
+		float: right;
+		padding-left: 400px;
+		padding-top: 158px;
+		display: flex;
+		margin-left: 200px;
+	}
+	
+	
+	.evento3 {
+		background: #F7C93E;
+		height: 80vh;
+		padding-top: 30px;
+		padding-left: 140px;
+		position: relative;
+		margin: 0;
+	}
+	.evento3 h1 {
+		text-align: left;
+		margin-bottom: 0px;
+		padding-top: 20px;
+		margin-left: 700px;
+		margin-right: 170px;
+	}
+	.evento3 p {
+		text-align: left;
+		margin-top: 10px;
+		margin-left: 700px;
+		margin-right: 170px;
+	}
+	
+	.evento3 div img {
+		position: absolute;
+		float: left;
+		padding-top: -10px;
+		padding-left: 110px;
+		display: flex;
+	}
+	
+	
+footer {
+	font-family: 'Stilu', sans-serif;
+	background: #44B86E;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	font-size: 17px;
+	padding: 20px;
+	}
+
+footer div {
+	width: 21.7%;
+	height: 100%;
+	padding: 8px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	border-right: 5px solid #098837;
+	right: 25px;
+	align-content: center;
+	}
+	
+
+footer .derechosreservados div {
+	height: 113px;
+	} 
+	
+footer .encontranosen div {
+	height: 113px;
+	} 
+	
+
+footer p {
+	display: flex;
+	font-size: 17px;
+	margin: 0 auto;
+	margin-left: 38px;
+	padding-bottom: 2px;
+	text-align: left;
+	float: left;
+	position: relative;
+	}
+	
+footer .derechosreservados p {
+	margin-left: 0px;
+	}
+
+footer img {
+	display: flex;
+	margin: 0 auto;
+	position: absolute;
+	float: left;
+	padding: 4px;
+	}
+
+footer .encontranosen img {
+	margin-top: -5px;
+	}

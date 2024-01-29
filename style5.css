@@ -1,0 +1,270 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body {
+    margin: 0 auto;
+    font-family: 'Stilu', sans-serif;
+}
+
+h1 {
+	font-family: 'Stilu Semibold', sans-serif;
+	font-size: 46px;
+	}	
+	
+h2 {
+    font-family: 'Stilu Semibold', sans-serif;
+	font-size: 30px;
+}
+
+p {
+    font-family: 'Stilu', sans-serif;
+	font-size: 21px;
+}
+
+
+	
+
+
+header {
+	background: #FFFFFF;
+	height: 150px;
+	position: relative;
+	margin: 0;
+	line-height: 0px;
+	display: flex;
+	padding: 25px;
+	}
+
+a {
+	text-decoration: none;
+}
+header a > img {
+	float: left;
+	}
+	
+
+	
+header nav ul {
+		font-family: 'Stilu Semibold', sans-serif;
+		width: 85%;
+		height: 20px;
+		float: right;
+		display: flex;
+		padding-top: 17px;
+		margin-left: 150px;
+		margin-top: 115px;
+	}
+
+	
+nav ul a > li {
+	padding-left: 25px;
+	font-size: 21px;
+	float: right;
+	}
+	
+nav ul > a {
+	color:#000000;
+	list-style: none;
+	}
+
+nav ul a > li:hover {
+	color: #098837;
+	}	
+	
+	
+	
+	
+	
+	
+	
+nav ul > li, a {
+	padding-left: 25px;
+	font-size: 21px;
+	display:inline;
+	float: right;
+	}
+	
+nav ul > li, a {
+	list-style: none;
+	color: #098837;
+	margin-bottom: 20px;
+	}
+	
+
+
+
+h1, h2 {
+	color:#000000;
+}
+nav ul a {
+	font-size: 21px;
+	}
+	
+
+	
+	.inicio {
+		height: 100vh;
+		position: relative;
+		background: url("imagenes/formas/fondosobrenosotros.png") center;
+		background-size: cover;
+	}
+	
+	.empresaehistoria {
+		height: 60vh;
+		padding-left: 130px;
+		padding-right: 300px;
+		padding-top: 10px;
+		margin: 0 auto;
+		position: relative;
+		background: #FFFFFF;
+	}
+	.empresaehistoria h1 {
+		text-align: left;
+		padding-top: 0px;
+		margin-bottom: 0px;
+		color: #098837;
+	}
+	.empresaehistoria p {
+		text-align: left;
+		margin-top: 10px;
+	}
+	
+	
+	.publicoobjetivo {
+		height: 100vh;
+		padding-left: 400px;
+		padding-right: 130px;
+		margin: 0 auto;
+		position: relative;
+		background: url("imagenes/formas/fondoverdeyformasblancassn.png") center;
+		background-size: cover;
+	}
+	.publicoobjetivo h1 {
+		padding-top: 190px;
+		text-align: left;
+		margin-bottom: 0px;
+	}
+	.publicoobjetivo p {
+		text-align: left;
+		margin-top: 10px;
+	}
+	
+	.mvyvalores {
+		height: 55vh;
+		padding-left: 130px;
+		padding-right: 300px;
+		padding-top: 10px;
+		margin: 0 auto;
+		position: relative;
+		background:#FFFFFF;
+	}
+	.mvyvalores h1 {
+		text-align: left;
+		padding-top: 0px;
+		margin-bottom: 0px;
+		color: #F7C93E;
+	}
+	.mvyvalores p {
+		text-align: left;
+		margin-top: 10px;
+	}
+	
+	.queseofrece {
+		height: 119vh;
+		padding-left: 400px;
+		padding-right: 130px;
+		margin: 0 auto;
+		position: relative;
+		background: url("imagenes/formas/fondoamarilloyformasblancas.png") center;
+		background-size: cover;
+	}
+	.queseofrece h1 {
+		text-align: left;
+		padding-top: 300px;
+		margin-bottom: 0px;
+	}
+	.queseofrece p {
+		text-align: left;
+		margin-top: 10px;
+	}
+	
+	.competencia {
+		height: 70vh;
+		padding-left: 130px;
+		padding-right: 300px;
+		padding-top: 10px;
+		margin: 0 auto;
+		position: relative;
+		background:#FFFFFF;
+	}
+	.competencia h1 {
+		text-align: left;
+		padding-top: 0px;
+		margin-bottom: 0px;
+		color: #098837;
+	}
+	.competencia p {
+		text-align: left;
+		margin-top: 10px;
+	}
+	
+
+footer {
+	font-family: 'Stilu', sans-serif;
+	background: #F7C93E;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	font-size: 17px;
+	padding: 20px;
+	}
+
+footer div {
+	width: 21.7%;
+	height: 100%;
+	padding: 8px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	border-right: 5px solid #098837;
+	right: 25px;
+	align-content: center;
+	}
+	
+
+footer .derechosreservados div {
+	height: 113px;
+	} 
+	
+footer .encontranosen div {
+	height: 113px;
+	} 
+	
+
+footer p {
+	display: flex;
+	font-size: 17px;
+	margin: 0 auto;
+	margin-left: 38px;
+	padding-bottom: 2px;
+	text-align: left;
+	float: left;
+	position: relative;
+	}
+	
+footer .derechosreservados p {
+	margin-left: 0px;
+	}
+
+footer img {
+	display: flex;
+	margin: 0 auto;
+	position: absolute;
+	float: left;
+	padding: 4px;
+	}
+
+footer .encontranosen img {
+	margin-top: -5px;
+	}

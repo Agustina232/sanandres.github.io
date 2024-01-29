@@ -1,0 +1,290 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body {
+    margin: 0 auto;
+    font-family: 'Stilu', sans-serif;
+}
+
+h1 {
+	font-family: 'Stilu Semibold', sans-serif;
+	font-size: 46px;
+	}	
+	
+h2 {
+    font-family: 'Stilu Semibold', sans-serif;
+	font-size: 30px;
+}
+
+p {
+    font-family: 'Stilu', sans-serif;
+	font-size: 21px;
+}
+
+header {
+	background: #FFFFFF;
+	height: 150px;
+	position: relative;
+	margin: 0;
+	line-height: 0px;
+	display: flex;
+	padding: 25px;
+	}
+
+a {
+	text-decoration: none;
+}
+header a > img {
+	float: left;
+	}
+	
+
+	
+header nav ul {
+		font-family: 'Stilu Semibold', sans-serif;
+		width: 85%;
+		height: 20px;
+		float: right;
+		display: flex;
+		padding-top: 17px;
+		margin-left: 150px;
+		margin-top: 115px;
+	}
+
+	
+nav ul a > li {
+	padding-left: 25px;
+	font-size: 21px;
+	float: right;
+	}
+	
+nav ul > a {
+	color:#000000;
+	list-style: none;
+	}
+
+nav ul a > li:hover {
+	color: #098837;
+	}	
+	
+	
+	
+	
+	
+	
+	
+nav ul > li, a {
+	padding-left: 25px;
+	font-size: 21px;
+	display:inline;
+	float: right;
+	}
+	
+nav ul > li, a {
+	list-style: none;
+	color: #098837;
+	margin-bottom: 20px;
+	}
+	
+
+
+
+h1, h2 {
+	color:#000000;
+}
+nav ul a {
+	font-size: 21px;
+	}
+	
+
+
+footer {
+	font-family: 'Stilu', sans-serif;
+	background: #F7C93E;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	font-size: 17px;
+	padding: 20px;
+	}
+
+footer div {
+	width: 21.7%;
+	height: 100%;
+	padding: 8px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	border-right: 5px solid #098837;
+	right: 25px;
+	align-content: center;
+	}
+	
+
+footer .derechosreservados div {
+	height: 113px;
+	} 
+	
+footer .encontranosen div {
+	height: 113px;
+	} 
+	
+
+footer p {
+	display: flex;
+	font-size: 17px;
+	margin: 0 auto;
+	margin-left: 38px;
+	padding-bottom: 2px;
+	text-align: left;
+	float: left;
+	position: relative;
+	}
+	
+footer .derechosreservados p {
+	margin-left: 0px;
+	}
+
+footer img {
+	display: flex;
+	margin: 0 auto;
+	position: absolute;
+	float: left;
+	padding: 4px;
+	}
+
+footer .encontranosen img {
+	margin-top: -5px;
+	}
+	
+	
+	
+	.inicio {
+		height: 100vh;
+		position: relative;
+		background: url("imagenes/formas/fotoyformaamarillagrande.png") center;
+		background-size: cover;
+}
+	
+	
+	
+	.descripcion {
+		background: #F7C93E;
+		height: 40vh;
+		padding: 5px;
+		text-align: center;
+		position: relative;
+		margin: 0 auto;
+	}
+	
+	.descripcion h1 {
+		text-align: center;
+		padding-top: 0px;
+		margin-bottom: 0px;
+		margin-left: 410px;
+		margin-right: 410px;
+	}
+	
+	.descripcion p {
+		text-align: center;
+		margin-top: 10px;
+		margin-left: 320px;
+		margin-right: 320px;
+	}
+	
+
+	
+	
+	.productosresumen {
+		height: 88vh;
+		padding: 130px;
+		margin: 0 auto;
+		position: relative;
+		background: url("imagenes/formas/fondoblancoyformaamarillayverde.png") center;
+		background-size: cover;
+	}
+	.productosresumen h1 {
+		text-align: left;
+		padding-top: 50px;
+		margin-bottom: 0px;
+		color: #098837;
+	}
+	.productosresumen p {
+		text-align: left;
+		margin-top: 10px;
+		margin-right: 500px;
+		color:#000000;
+	}
+	.productosresumen div img {
+		width: 300;
+		height: 120;
+		float: right;
+		margin-top: 40px;
+		margin-right: 29px;
+	}
+
+	
+	
+	
+	.eventosresumen {
+		background: #44B86E;
+		height: 30vh;  
+		padding: 130px;
+		position: relative;
+		margin: 0;
+	}
+	.eventosresumen h1 {
+		text-align: left;
+		margin-bottom: 0px;
+		margin-left: 600px;
+		display: flex;
+		margin-top: -20px;
+	}
+	.eventosresumen p {
+		text-align: left;
+		margin-top: 10px;
+		display: flex;
+	}
+	.eventosresumen div img {
+		position: absolute;
+		float: left;
+		margin-left: 100px;
+		margin-top: -120px;
+		display: flex;
+	}
+
+
+
+	.noticiasresumen {
+		height: 80vh;
+		padding: 130px;
+		margin: 0 auto;
+		position: relative;
+		background: url("imagenes/formas/fondoblancoyformaverde.png") center;
+		background-size: cover;
+	}
+	.noticiasresumen h1 {
+		text-align: left;
+		padding-top: 150px;
+		margin-bottom: 0px;
+		color: #F7C93E;
+	}
+	.noticiasresumen p {
+		text-align: left;
+		margin-top: 10px;
+		margin-right: 500px;
+	}
+	.noticiasresumen div img {
+		position: absolute;
+		float: right;
+		padding-left: 50px;
+		margin-top: -90px;
+		display: flex;
+		margin-left: 500px;
+	}
+.noticiasresumen	div img, p {
+		display: flex;
+		float: right;
+	}
+

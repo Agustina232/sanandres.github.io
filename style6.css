@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+
+html body {
+    margin: 0 auto;
+    font-family: 'Stilu', sans-serif;
+}
+
+h1 {
+	font-family: 'Stilu Semibold', sans-serif;
+	font-size: 46px;
+	}	
+	
+h2 {
+    font-family: 'Stilu Semibold', sans-serif;
+	font-size: 30px;
+}
+
+
+p {
+    font-family: 'Stilu', sans-serif;
+	font-size: 21px;
+}
+
+
+	
+
+
+header {
+	background: #FFFFFF;
+	height: 150px;
+	position: relative;
+	margin: 0;
+	line-height: 0px;
+	display: flex;
+	padding: 25px;
+	}
+
+a {
+	text-decoration: none;
+}
+header a > img {
+	float: left;
+	}
+	
+
+	
+header nav ul {
+		font-family: 'Stilu Semibold', sans-serif;
+		width: 85%;
+		height: 20px;
+		float: right;
+		display: flex;
+		padding-top: 17px;
+		margin-left: 150px;
+		margin-top: 115px;
+	}
+
+	
+nav ul a > li {
+	padding-left: 25px;
+	font-size: 21px;
+	float: right;
+	}
+	
+nav ul > a {
+	color:#000000;
+	list-style: none;
+	}
+
+nav ul a > li:hover {
+	color: #098837;
+	}	
+	
+	
+	
+	
+	
+	
+	
+nav ul > li, a {
+	padding-left: 25px;
+	font-size: 21px;
+	display:inline;
+	float: right;
+	}
+	
+nav ul > li, a {
+	list-style: none;
+	color: #098837;
+	margin-bottom: 20px;
+	}
+	
+
+
+
+h1, h2 {
+	color:#000000;
+}
+nav ul a {
+	font-size: 21px;
+	}
+	
+	
+	.inicio {
+		height: 100vh;
+		position: relative;
+		background: url("imagenes/formas/fondocontacto.png") center;
+		background-size: cover;
+	}
+	
+	.formulario {
+		width: 700px;
+		height: 110vh;
+		padding: 30px;
+		margin: 0 auto;
+		background: #FFFFFF;
+	}
+	
+	.formulario p {
+		text-align: center;
+		padding-bottom: 25px;
+	}
+	
+	.controles {
+		width: 94%;
+		background: #FFFFFF;
+		padding: 18px;
+		border-radius: 10px;
+		border: 3px solid #252525;
+		margin-bottom: 10px;
+		margin: 0 auto;
+		font-size: 18px;
+	}
+	
+	.mensajes {
+		width: 94%;
+		background: #FFFFFF;
+		padding: 18px;
+		border-radius: 10px;
+		border: 3px solid #252525;
+		margin-bottom: 10px;
+		margin: 0 auto;
+		font-size: 18px;
+		font-family: 'Stilu', sans-serif;
+	}
+
+	.boton {
+		width: 25%;
+		background: #098837;
+		padding: 20px;
+		border-radius: 10px;
+		border: none;
+		margin-bottom: 10px;
+		margin: 0 auto;
+		font-size: 18px;
+		font-family: 'Stilu Semibold', sans-serif;
+		color: #FFFFFF;
+	}
+	
+
+	
+	
+
+	.mapa {
+		height: 110vh;
+		padding: 130px;
+		margin: 0 auto;
+		position: relative;
+		background: url("imagenes/formas/fondoamarilloyformablanca.png") center;
+		background-size: cover;
+	}
+	.mapa h1 {
+		text-align: left;
+		margin-top: 180px;
+		padding-top: 50px;
+		margin-bottom: 0px;
+		color: #000000;
+	}
+	.mapa p {
+		text-align: left;
+		margin-top: 10px;
+		color:#000000;
+		}
+	
+
+	
+	.mapa iframe {
+		position: absolute;
+		float: right;
+		margin-left: 600px;
+		margin-top: -440px;
+	}
+
+	
+	
+
+	
+
+footer {
+	font-family: 'Stilu', sans-serif;
+	background: #44B86E;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	font-size: 17px;
+	padding: 20px;
+	}
+
+footer div {
+	width: 21.7%;
+	height: 100%;
+	padding: 8px;
+	margin-left: 20px;
+	text-align: left;
+	float: left;
+	border-right: 5px solid #098837;
+	right: 25px;
+	align-content: center;
+	}
+	
+
+footer .derechosreservados div {
+	height: 113px;
+	} 
+	
+footer .encontranosen div {
+	height: 113px;
+	} 
+	
+
+footer p {
+	display: flex;
+	font-size: 17px;
+	margin: 0 auto;
+	margin-left: 38px;
+	padding-bottom: 2px;
+	text-align: left;
+	float: left;
+	position: relative;
+	}
+	
+footer .derechosreservados p {
+	margin-left: 0px;
+	}
+
+footer img {
+	display: flex;
+	margin: 0 auto;
+	position: absolute;
+	float: left;
+	padding: 4px;
+	}
+
+footer .encontranosen img {
+	margin-top: -5px;
+	}
+	
+
+	
